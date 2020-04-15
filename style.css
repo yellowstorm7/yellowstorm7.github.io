@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	font-family: "robotoregular", Arial, "Trebuchet MS", sans-serif
+}
+h1
+{
+	font-size: 1.5em;
+}
+
+h2
+{
+	font-size: 1.2em;
+	display: center;
+	align-content: center;
+	font-weight: bold;
+}
+h3, p
+{
+	font-size: 0.8em;
+}
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	background-color: #FFD600;
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: auto;
+	margin: auto;
+	justify-content: space-around;
+	background-color: white;
+	border-right: 1px solid grey;
+}
+
+.left-align
+{
+	float: left;
+}
+
+.right-align
+{
+	width: 30%;
+}
+
+.clear-float
+{
+	clear: both;
+}
+
+
+footer
+{
+
+	background-color: white;
+	border-bottom: 1px solid grey;
+}
+
+aside h2
+{
+	background-color: #263238;
+	color: #FFD600;
+}
+
+main h2
+{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#icones
+{
+	display: flex;
+	justify-content: space-around;
+}
+aside footer
+{
+	display: inline-block;
+	bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 2rem;
+	margin-top: auto;
+	justify-content: center;
+	text-align: center;
+	background-color: #FFD600;
+	border-bottom: none;
+	border-right: none;
+}
+
+#footer
+{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+}
+footer p
+{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+}
+body
+{
+	display: flex;
+	background-color: white;
+	margin: auto;
+	font-size: 14px;
+	min-height: 100vh;
+}
+header
+{
+	display: flex;
+	border-top: 1px solid grey;
+}
+header h1
+{
+	padding-left: 10%;
+}
+.metier
+{
+	font-size: 0.80em;
+}
+.parcours
+{
+	font-size: 1.05em;
+}
+.description
+{
+	font-size: 0.90em;
+}
+.fas
+{
+	position: relative;
+	left: 5%;
+	font-size: 150%;
+}
+.far
+{
+	color: #FFD600;
+}
+.dates
+{
+	position: relative;
+	left: 5%;
+}
+article
+{
+	display: flex;
+	justify-content: space-around;
+}
+.souligne
+{
+	border-bottom: 1.5px solid #FFD600;
+
+}
+.longtrait
+{
+	display: block;
+	margin-left: 5%;
+	margin-right: 10%;
+	border-bottom: 1.5px solid #FFD600;
+}
+#last_formation .left-align
+{
+	position: relative;
+	left: -2.5%;
+}
+#last_formation .right-align
+{
+	position: relative;
+	left: 7.5%;
+}
+#last_formation
+{
+	padding-bottom: 2rem;
+}
+#last_experience
+{
+	padding-bottom: 2rem;
+}
+.formation .right-align
+{
+	position: relative;
+	left: -0.5%;
+}
+img
+{
+	border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 26, 0.4);	
+}
+.prenom
+{
+	font-weight: bold;
+	color: #FFD600;
+}
+#name
+{
+	font-weight: normal;
+	font-size: 2em;
+}
+.container
+{
+	display: flex;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 70%;
+	background-color: white;
+}
+
+@media screen and (max-width : 1024px)
+{
+	*
+		{
+			background-color: white;
+			color: black;
+			font-size: 3vw;
+			width: auto;
+			text-align: center;
+		}
+	body
+		{
+			font-size: 1em;
+			background-color: white;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			border: none;
+
+		}
+	.container
+		{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			border: none;
+			width: auto;
+		}
+	main
+		{
+			font-size: 1em;
+			width: 100%;
+			height: 70%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			text-align: center;
+			margin-top: 10%;
+			background-color: white;
+			border: none;
+
+		}
+	aside
+		{
+			font-size: 1em;
+			width: 100%;
+			height: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			text-align: center;
+			background-color: white;
+			border-right: none;
+			border: none;
+			margin-top: 80%;
+
+		}
+	header
+		{
+			display: flex;
+			position: absolute;
+			top: 30%;
+			border: none;
+			font-size: 1em;
+		}
+	aside section
+		{
+			margin-bottom: 0%;
+			text-align: center;
+			border-right: none;
+			border: none;
+		}
+	img
+		{
+			display: block;
+			position: absolute;
+			top: 2%;
+			left: 35%;
+			width: 30%;
+		}
+	aside footer
+		{
+			width: 100%;
+			display: inline-block;
+			flex-direction: column;
+			background-color: white;
+			color: black;
+			text-align: center;
+			justify-content: space-around;
+			border-right: none;
+			border: none;
+			}
+	footer
+		{
+			background-color: white;
+			color: black;
+			border: none;
+		}
+	main h2
+		{
+			display: inline-block;
+			position: relative;
+			left: 2%;
+		}
+	.fas
+		{
+			display: inline-block;
+			position: relative;
+			left: 0%;
+		}
+	#footer
+		{
+			display: inline-block;
+			position: relative;
+			left: 2%;
+		}
+	footer p
+		{
+			display: inline-block;
+			left: 0%;
+		}
+	.longtrait
+		{
+			width: 90%;
+		}
+	.souligne
+		{
+			font-size: 1em;
+		}
+	#name
+		{
+			font-size: 1.5em;
+			font-weight: normal;
+		}
+	.prenom
+		{
+			font-size: 1em;
+			color: black;
+			font-weight: normal;
+		}
+	main footer
+		{
+			font-size: 3.5vw;
+		}
+	article
+		{
+			flex-direction: column;
+		}
+	.right-align
+		{
+			width: auto;
+		}
+	aside h2
+		{
+			text-decoration: none;
+			background-color: white;
+			color: black;
+		}
+	#last_formation .left-align
+		{
+			text-align: left;
+			left: 10%;
+		}
+
+
