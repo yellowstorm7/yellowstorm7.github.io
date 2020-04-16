@@ -305,7 +305,7 @@ img
 		{
 			display: flex;
 			position: absolute;
-			top: 30%;
+			top: 20%;
 			border: none;
 			font-size: 1em;
 		}
@@ -322,7 +322,8 @@ img
 			position: absolute;
 			top: 2%;
 			left: 35%;
-			width: 30%;
+			width: 280px;
+			height: 280px;
 		}
 	aside footer
 		{
@@ -406,6 +407,10 @@ img
 		{
 			text-align: left;
 			left: 10%;
+		}
+	.infos
+		{
+			margin-top: 5%;
 		}
 
 
